@@ -10,6 +10,6 @@ Vagrant.configure ("2") do |config|
     sudo yum -y install epel-release
     sudo yum -y install nginx
 	echo "hello, park seungkyu" > /usr/share/nginx/html/index.html
-    sudo systemctl start nginx
+    sudo systemctl start nginx 
 	SHELL
 end
